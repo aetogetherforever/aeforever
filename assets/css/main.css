@@ -1,4 +1,9 @@
 /* xm.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+@font-face {
+    font-family: fancyf;
+    src: url();
+}
+
 html {
     box-sizing: border-box
 }
@@ -1061,8 +1066,9 @@ a {
 
 .xm-display-middle {
     position: absolute;
-    top: 45%;
+    top: 15%;
     left: 50%;
+    padding: 5;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%)
 }
