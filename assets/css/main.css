@@ -722,6 +722,10 @@ a {
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
+    .xm-map {
+        width: 70%;
+    }
+
     .column {
       flex: 50%;
       max-width: 50%;
@@ -737,6 +741,9 @@ a {
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
+    .xm-map {
+        width: 90%;
+    }
     .column {
       flex: 100%;
       max-width: 100%;
@@ -868,7 +875,7 @@ a {
 }
 
 .xm-auto {
-    max-width: 1140px
+    max-width: 295px
 }
 
 .xm-cell-row {
@@ -906,6 +913,9 @@ a {
 }
 
 @media (max-width:1205px) {
+    .xm-map {
+        width: 300px;
+    }
     .xm-auto {
         max-width: 95%
     }
@@ -965,6 +975,9 @@ a {
 }
 
 @media (max-width:768px) {
+    .xm-map {
+        width: 100%;
+    }
     .xm-modal-content {
         width: 500px
     }
@@ -1489,7 +1502,7 @@ a {
 }
 
 .xm-margin-bottom {
-    margin-bottom: 16px !important
+    margin-bottom: 20px !important
 }
 
 .xm-margin-left {
