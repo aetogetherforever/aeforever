@@ -23,14 +23,12 @@ a:hover {
 /*
  * Base structure
  */
-
-html,
 body {
   height: 100%;
   background-image: url("images/Header Photo.jpg");
   background-position: center;
   background-size: cover;
-  background-size: 75%;
+  /* background-size: 75%; */
   background-repeat: no-repeat;
 }
 
