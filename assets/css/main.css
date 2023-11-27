@@ -299,8 +299,40 @@ hr {
     height: auto
 }
 
+.jumbotron {
+    color: #000;
+ background-color: #000;
+}
+
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    width: 80%;
+}
+
+@media (max-width: 576px) {
+    .jumbotron {
+        color: #fff;
+    }
+
+    img {
+        width: 100%;
+    }
+    
+}
+
+image-slideshow {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.fade {
+    animation-name: fade;
+  animation-duration: 5s;
+}
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
 }
 
 a {
@@ -1078,8 +1110,9 @@ a {
 }
 
 .xm-display-middle {
+    text-wrap: nowrap;
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 50%;
     padding: 5;
     transform: translate(-50%, -50%);

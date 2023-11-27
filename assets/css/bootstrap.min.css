@@ -4894,9 +4894,10 @@ tbody.collapse.show {
     border-radius: .3rem
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .jumbotron {
-        padding:4rem 2rem
+        background-color: #000;
+        padding: 0px 0px;
     }
 }
 
